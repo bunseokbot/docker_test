@@ -1,0 +1,5 @@
+sweetpwn:
+  image: sweetchip/sweetpwn:latest
+  ports:
+    - "5050:22"
+  command: /usr/sbin/sshd -D
