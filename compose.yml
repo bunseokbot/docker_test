@@ -1,6 +1,5 @@
 image: bunseokbot/docker_test:latest
 ports:
- - "5000:22"
- - "5001:80"
-command:
- - "/usr/sbin/sshd -D"
+ - 5000:22
+ - 5001:80
+command: /usr/sbin/sshd -D
